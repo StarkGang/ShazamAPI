@@ -6,13 +6,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ShazamAPI", # Replace with your own username
-    version="0.0.2",
+    version="10.2",
     author="Numenorean",
     author_email="author@example.com",
     description="Fully reverse engeenired shazam api",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Numenorean/ShazamAPI",
+    url="https://github.com/StarkGang/ShazamAPI",
     install_requires=['requests', 'pydub', 'numpy'],
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
