@@ -9,8 +9,8 @@ import json
 from .algorithm import SignatureGenerator
 from .signature_format import DecodedMessage
 
-LANG = 'ru'
-TIME_ZONE = 'Europe/Moscow'
+LANG = 'en'
+TIME_ZONE = 'Asia/Kolkata'
 API_URL = 'https://amp.shazam.com/discovery/v5/ru/RU/iphone/-/tag/%s/%s?sync=true&webv3=true&sampling=true&connected=&shazamapiversion=v3&sharehub=true&hubv5minorversion=v5.1&hidelb=true&video=v3'
 HEADERS = {
     "X-Shazam-Platform": "IPHONE",
